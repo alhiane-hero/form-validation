@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base App</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <section>
+        <div class="container">
+            <form action="#" id="regForm">
+                <div class="input-box">
+                    <input class="input nameInput"
+                        type="text"
+                        placeholder="Full Name" data-class='nameMsg'
+                    >
+                    <span class="nameMsg">
+                        Invalid Name!
+                    </span>
+                </div>
+                <div class="input-box">
+                    <input class="input emailInput"
+                        type="email" id="emailInput" placeholder="Email Adress" data-class='emailMsg'
+                    >
+                    <span class="emailMsg">
+                        Invalid Input!
+                    </span>
+                </div>
+                <div class="input-box">
+                    <input class="input phoneInput"
+                        type="text" id="phoneInput" placeholder="Phone Number" data-class='phoneMsg'
+                    >
+                    <span class="phoneMsg">
+                        Invalid Input!
+                    </span>
+                </div>
+                <div class="input-box">
+                    <input class="input webUrlInput"
+                        type="text" id="webUrlInput" placeholder="Website Url" data-class='webUrlMsg'
+                    >
+                    <span class="webUrlMsg">
+                        Invalid Input!
+                    </span>
+                </div>
+                <div class="input-box">
+                    <input class="password"
+                        type="password" placeholder="Password"
+                    >
+                </div>
+                <div class="input-box">
+                    <input class="input confirmPassword"
+                        type="password" placeholder="Confirm Password" data-class='confirmpassMsg'
+                    >
+                    <span class="confirmpassMsg">
+                        Invalid Input!
+                    </span>
+                </div>
+                <div class="inputBtns">
+                    <button class="btn">Cancel</button>
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
